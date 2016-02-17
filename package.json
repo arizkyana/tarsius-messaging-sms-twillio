@@ -1,14 +1,13 @@
 {
   "name": "tarsius-messaging-sms-twillio",
-  "version": "1.0.0",
-  "private": true,
-  "description": "",
+  "version": "0.0.1",
+  "description": "tarsius plugin for send sms using twillio service",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "muhammad hasan <hasan@lussa.net>",
+  "license": "MIT",
   "dependencies": {
     "bluebird": "^3.1.1",
     "install": "^0.4.1",
@@ -35,5 +34,19 @@
         "type": "password"
       }
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lussatech/tarsius-messaging-sms-twillio.git"
+  },
+  "keywords": [
+    "tarsius",
+    "nodejs",
+    "twillio",
+    "sms"
+  ],
+  "bugs": {
+    "url": "https://github.com/lussatech/tarsius-messaging-sms-twillio/issues"
+  },
+  "homepage": "https://github.com/lussatech/tarsius-messaging-sms-twillio#readme"
 }
