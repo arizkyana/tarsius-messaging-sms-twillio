@@ -1,0 +1,39 @@
+{
+  "name": "tarsius-messaging-sms-twillio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.1.1",
+    "install": "^0.4.1",
+    "npm": "^3.5.2",
+    "twilio": "^2.8.0"
+  },
+  "tarsius": {
+    "type": "messaging.sms",
+    "name": "twillio sms gateway",
+    "configs": [
+      {
+        "name": "accountSid",
+        "title": "account SID",
+        "type": "string"
+      },
+      {
+        "name": "number",
+        "title": "nomor pengirim",
+        "type": "string"
+      },
+      {
+        "name": "authToken",
+        "title": "authentication token",
+        "type": "password"
+      }
+    ]
+  }
+}
